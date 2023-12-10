@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table.GeneratedTable {
+        width: 100%;
+        background-color: #ffffff;
+        border-collapse: collapse;
+        border-width: 2px;
+        border-color: #ffcc00;
+        border-style: solid;
+        color: #000000;
+        }
+        
+        table.GeneratedTable td, table.GeneratedTable th {
+        border-width: 2px;
+        border-color: #ffcc00;
+        border-style: solid;
+        padding: 3px;
+        }
+        
+        table.GeneratedTable thead {
+        background-color: #ffcc00;
+        }
+    </style>
+    
+</head>
+<body>
+    <table class="GeneratedTable">
+        <thead>
+          <tr>
+            <th>CandyName</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <form id="my-form">
+            <th><input type="text" id="candyName" name="candyName"></th>
+            <th><input type="text" id="description" name="description"></th>
+            <th><input type="number" id="price" name="price"></th>
+            <th><input type="number" id="quantity" name="quantity"></th>
+            <th><button type="submit">Add Item</button></th>
+            </form>
+          </tr>
+          <div id="localStorageData">
+            <tr>
+                
+            </tr>
+          </div>
+        </tbody>
+      </table>
+      <script src="script.js"></script>
+</body>
+</html>
